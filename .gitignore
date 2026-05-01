@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+.venv311/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (optional large files)
+data/raw/
+
+# Models (optional if large)
+saved_models/

@@ -1,0 +1,239 @@
+{
+    "kartik": {
+        "recent_watch_history": [
+            {
+                "title": "Shawshank Redemption, The (1994)",
+                "watched_at": "2026-04-25T19:18:16",
+                "time_of_day": "evening",
+                "clicks": 1
+            },
+            {
+                "title": "Fight Club (1999)",
+                "watched_at": "2026-04-25T19:18:17",
+                "time_of_day": "evening",
+                "clicks": 1
+            },
+            {
+                "title": "Matrix, The (1999)",
+                "watched_at": "2026-04-25T19:18:33",
+                "time_of_day": "evening",
+                "clicks": 3
+            }
+        ],
+        "liked_movies": [
+            "Grumpier Old Men (1995)",
+            "Toy Story (1995)",
+            "American President, The (1995)",
+            "Dracula: Dead and Loving It (1995)",
+            "Four Rooms (1995)",
+            "Schindler's List (1993)",
+            "Chinatown (1974)",
+            "Inception (2010)"
+        ],
+        "preferred_genres": [
+            "Comedy",
+            "Crime",
+            "Film-Noir"
+        ],
+        "als_user_id": 130012,
+        "disliked_genres": [],
+        "movie_clicks": {
+            "Usual Suspects, The (1995)": 2,
+            "Matrix, The (1999)": 3,
+            "Shawshank Redemption, The (1994)": 1,
+            "Fight Club (1999)": 1,
+            "Chinatown (1974)": 1
+        },
+        "watch_later": [
+            "Inception (2010)",
+            "Blood Father (2016)"
+        ]
+    },
+    "R": {
+        "recent_watch_history": [
+            {
+                "title": "Toy Story (1995)",
+                "watched_at": "2026-04-26T16:40:34",
+                "time_of_day": "afternoon",
+                "clicks": 1
+            }
+        ],
+        "liked_movies": [
+            "Toy Story (1995)",
+            "Batman Forever (1995)",
+            "Mask, The (1994)",
+            "Toy Story 2 (1999)",
+            "Blade Runner (1982)"
+        ],
+        "preferred_genres": [
+            "Sci-Fi"
+        ],
+        "als_user_id": 105746,
+        "disliked_genres": [],
+        "movie_clicks": {
+            "Toy Story (1995)": 1
+        },
+        "watch_later": [
+            "Blade Runner (1982)"
+        ]
+    },
+    "W": {
+        "recent_watch_history": [
+            {
+                "title": "Matrix, The (1999)",
+                "watched_at": null,
+                "time_of_day": null,
+                "clicks": 1
+            }
+        ],
+        "liked_movies": [
+            "Grumpier Old Men (1995)",
+            "Toy Story (1995)",
+            "Dracula: Dead and Loving It (1995)"
+        ],
+        "preferred_genres": [
+            "Sci-Fi"
+        ],
+        "als_user_id": 36683,
+        "disliked_genres": [],
+        "movie_clicks": {},
+        "watch_later": []
+    },
+    "T": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "Grumpier Old Men (1995)",
+            "Toy Story (1995)",
+            "Dracula: Dead and Loving It (1995)",
+            "Ace Ventura: When Nature Calls (1995)",
+            "It Takes Two (1995)"
+        ],
+        "preferred_genres": [
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "als_user_id": 63477,
+        "disliked_genres": [],
+        "movie_clicks": {},
+        "watch_later": []
+    },
+    "Y": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "Toy Story (1995)",
+            "Dracula: Dead and Loving It (1995)",
+            "French Kiss (1995)",
+            "Major Payne (1995)",
+            "Live Nude Girls (1995)"
+        ],
+        "preferred_genres": [
+            "Fantasy",
+            "Mystery",
+            "Thriller"
+        ],
+        "disliked_genres": [
+            "Children",
+            "Musical",
+            "Drama"
+        ],
+        "als_user_id": 63477,
+        "movie_clicks": {},
+        "watch_later": []
+    },
+    "dummy": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "Toy Story (1995)"
+        ],
+        "preferred_genres": [
+            "Adventure"
+        ],
+        "disliked_genres": [
+            "War"
+        ],
+        "als_user_id": 105746,
+        "movie_clicks": {},
+        "watch_later": []
+    },
+    "user1": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "GoldenEye (1995)"
+        ],
+        "preferred_genres": [],
+        "disliked_genres": [
+            "Thriller"
+        ],
+        "als_user_id": 63477,
+        "movie_clicks": {},
+        "watch_later": []
+    },
+    "user2": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "Cutthroat Island (1995)",
+            "Money Train (1995)",
+            "Assassins (1995)",
+            "Dead Presidents (1995)"
+        ],
+        "preferred_genres": [
+            "Adventure",
+            "Animation",
+            "Children"
+        ],
+        "disliked_genres": [
+            "War"
+        ],
+        "als_user_id": 63477,
+        "movie_clicks": {},
+        "watch_later": []
+    },
+    "23": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "Pinocchio (1940)",
+            "All Dogs Go to Heaven 2 (1996)",
+            "Pinocchio (2022)",
+            "Jumanji (1995)"
+        ],
+        "preferred_genres": [
+            "Comedy",
+            "Action"
+        ],
+        "disliked_genres": [
+            "Action",
+            "Animation",
+            "Comedy"
+        ],
+        "als_user_id": 143334,
+        "movie_clicks": {},
+        "watch_later": [
+            "Pinocchio (2022)"
+        ]
+    },
+    "7017473700": {
+        "recent_watch_history": [
+            {
+                "title": "Up (2009)",
+                "watched_at": "2026-04-29T00:47:14",
+                "time_of_day": "night",
+                "clicks": 1
+            }
+        ],
+        "liked_movies": [
+            "Fun and Fancy Free (1947)",
+            "Up (2009)"
+        ],
+        "preferred_genres": [],
+        "disliked_genres": [
+            "Action"
+        ],
+        "als_user_id": 124417,
+        "movie_clicks": {
+            "Up (2009)": 1
+        },
+        "watch_later": [
+            "Cabaret (1972)"
+        ]
+    }
+}
