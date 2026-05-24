@@ -235,5 +235,60 @@
         "watch_later": [
             "Cabaret (1972)"
         ]
+    },
+    "20202": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "Money Train (1995)"
+        ],
+        "preferred_genres": [],
+        "disliked_genres": [
+            "Children"
+        ],
+        "als_user_id": 141289,
+        "movie_clicks": {},
+        "watch_later": []
+    },
+    "701747300": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "Money Train (1995)"
+        ],
+        "preferred_genres": [],
+        "disliked_genres": [
+            "Children"
+        ],
+        "als_user_id": 141289,
+        "movie_clicks": {},
+        "watch_later": []
+    },
+    "1": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "Pocahontas (1995)"
+        ],
+        "preferred_genres": [],
+        "disliked_genres": [
+            "Action"
+        ],
+        "als_user_id": 63477,
+        "movie_clicks": {},
+        "watch_later": []
+    },
+    "0": {
+        "recent_watch_history": [],
+        "liked_movies": [
+            "GoldenEye (1995)",
+            "Money Train (1995)"
+        ],
+        "preferred_genres": [
+            "Animation"
+        ],
+        "disliked_genres": [
+            "Children"
+        ],
+        "als_user_id": 63477,
+        "movie_clicks": {},
+        "watch_later": []
     }
 }

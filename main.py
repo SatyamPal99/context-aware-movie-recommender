@@ -9,6 +9,8 @@ from src.utils.time_utils import get_time_of_day
 from src.realtime.update_model import add_clicked_movie, get_recent_history
 from src.explainability.explain import generate_explanation
 
+#This file runs an interactive movie recommender where a user inputs preferences/history and 
+# gets personalized recommendations with explanations.
 
 def main():
     print("\n========== MOVIE RECOMMENDATION SYSTEM ==========\n")
