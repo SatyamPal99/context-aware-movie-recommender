@@ -45,6 +45,68 @@ st.set_page_config(
 )
 
 
+def apply_theme(theme: str):
+    """Apply a simple dark/light theme using CSS."""
+    if theme == "Dark":
+        bg = "#0f172a"
+        surface = "#111827"
+        text = "#facc15"
+        secondary_text = "#fde68a"
+        accent = "#38bdf8"
+        button_bg = "#2563eb"
+        button_text = "#ffffff"
+    else:
+        bg = "#f8fafc"
+        surface = "#ffffff"
+        text = "#0f172a"
+        secondary_text = "#475569"
+        accent = "#2563eb"
+        button_bg = "#2563eb"
+        button_text = "#ffffff"
+
+    st.markdown(
+        f"""
+        <style>
+        [data-testid="stAppViewContainer"] {{ background-color: {bg} !important; color: {text} !important; }}
+        [data-testid="stSidebar"] {{ background-color: {surface} !important; color: {text} !important; }}
+        .css-1d391kg, .css-1vm0m0k, .css-10trblm, .css-1kyxreq, .css-1ex0l0s {{ background-color: {surface} !important; color: {text} !important; }}
+        .css-1v0mbdj, .css-1emrehy, .css-z5f3af, .css-9s5bis, .css-aq7vm8 {{ color: {text} !important; }}
+        .css-1v0mbdj a, .css-1emrehy a {{ color: {accent} !important; }}
+        .css-1yp8h0r {{ color: {secondary_text} !important; }}
+        .stButton>button {{ background-color: {button_bg} !important; color: {button_text} !important; border: none !important; }}
+        .stTextInput label, .stMultiSelect label, .stSelectbox label, .stTextArea label, .stNumberInput label, .stSlider label, .stCheckbox label {{ color: {text} !important; }}
+        .stTextInput input, .stMultiSelect div[role="button"], .stSelectbox div[role="combobox"], .stTextArea textarea, .stNumberInput input, .stSlider input {{ color: {text} !important; }}
+        .stRadio {{ background-color: transparent !important; padding: 0 !important; margin: 0 !important; }}
+        .stRadio label {{ background-color: transparent !important; border: 1px solid rgba(255,255,255,0.15) !important; border-radius: 999px !important; padding: 8px 12px !important; min-width: 44px !important; text-align: center !important; margin: 0 2px !important; color: {text} !important; }}
+        .stRadio input[type="radio"] {{ display: none !important; }}
+        .stRadio label[for*="theme_toggle_radio"] {{ background-color: rgba(255,255,255,0.08) !important; }}
+        .stRadio input:checked + label {{ background-color: #7c3aed !important; color: white !important; border-color: transparent !important; }}
+        .theme-switcher {{ display: flex; align-items: center; justify-content: flex-end; gap: 4px; }}
+        .theme-switcher span {{ font-size: 18px; line-height: 1; }}
+        .theme-switcher .switch-label {{ color: {text} !important; font-weight: 600; }}
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def render_theme_toggle():
+    if "theme_mode" not in st.session_state:
+        st.session_state.theme_mode = "Light"
+
+    theme_choice = st.radio(
+        "",
+        ["☀️", "🌙"],
+        index=0 if st.session_state.theme_mode == "Light" else 1,
+        horizontal=True,
+        key="theme_toggle_radio",
+        label_visibility="collapsed",
+    )
+
+    st.session_state.theme_mode = "Light" if theme_choice == "☀️" else "Dark"
+    apply_theme(st.session_state.theme_mode)
+
+
 # -------------------------
 # LOAD DATA (CACHED)
 # -------------------------
@@ -523,16 +585,23 @@ als_profiles = build_als_profiles(als_recs)
 # -------------------------
 # WELCOME SECTION
 # -------------------------
-st.markdown("""
-# 🎬 Welcome to Movie Recommendation System
+if "theme_mode" not in st.session_state:
+    st.session_state.theme_mode = "Light"
 
-### 👨‍💻 Developed by:
-- S Kartik Iyer
-- Ravi Sharma
-- Satyam Pal
+col1, col2 = st.columns([2.8, 0.8])
+with col1:
+    st.markdown("""
+    # 🎬 Welcome to Movie Recommendation System
 
----
-""")
+    ### 👨‍💻 Developed by:
+    - S Kartik Iyer
+    - Ravi Sharma
+    - Satyam Pal
+
+    ---
+    """)
+with col2:
+    render_theme_toggle()
 
 st.success("🚀 Smart Recommendation System Ready")
 

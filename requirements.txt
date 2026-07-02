@@ -7,4 +7,5 @@ scikit-surprise
 rapidfuzz
 requests
 streamlit
+streamlit-toggle-switch
 pyspark
